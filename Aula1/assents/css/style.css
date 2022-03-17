@@ -1,0 +1,41 @@
+.container-flex{
+    display:flex; 
+    flex-direction:row; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+h1,h2{
+    color: #f1ee06;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+label::before{
+    content: "\266B";
+}
+img{
+    border: 2px solid #f1ee06;
+    padding: 50px;
+    margin: 50px;
+    
+}
+input{
+    border:none;
+    border-bottom: 1px solid #f1ee06;
+}
+h3{
+    color:#f1ee06;
+}
+.flex2{
+    display: flex;
+    flex-direction:column;
+}
+label{
+    color:#f1ee06;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+article{
+    text-align: center;
+}
